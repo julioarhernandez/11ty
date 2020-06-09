@@ -1,3 +1,5 @@
 node_modules
 .idea/
 _sites
+# Local Netlify folder
+.netlify
