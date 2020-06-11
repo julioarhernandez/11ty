@@ -12,7 +12,7 @@ sections:
 - type: heading
   label: Layouts
 - type: directory
-  path: src/layouts
+  path: src/_includes/layouts
   label: Layouts
   create: all
   match: "**/*"
