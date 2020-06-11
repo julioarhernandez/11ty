@@ -21,10 +21,10 @@ sections:
   label: Layouts
   create: all
   match: "**/*"
-upload_dir: src/assets/images
-public_path: _site/assets/images
+upload_dir: forestry-simple-theme
+public_path: https://res.cloudinary.com/dwrb9tglw/image/upload/v1591918036/forestry-simple-theme
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: 
 file_template: ":filename:"
 build:
   preview_output_directory: _site
