@@ -9,7 +9,6 @@ sections:
 - type: document
   path: src/_data/hero.json
   label: hero
-  match: "**/*"
 - type: heading
   label: SideBar heading
 - type: document
