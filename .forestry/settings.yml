@@ -5,6 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: heading
+  label: Data
+- type: document
+  path: src/_data/hero.json
+  label: hero
+- type: heading
   label: SideBar heading
 - type: document
   path: src/index.html
