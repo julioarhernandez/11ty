@@ -1,9 +1,14 @@
+const pluginSass = require("eleventy-plugin-sass");
+
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addPassthroughCopy("assets");
+    eleventyConfig
+        .addPassthroughCopy("src/assets/js");
+    
+    eleventyConfig.addPlugin(pluginSass, {});
     return {
         passthroughFileCopy: true,
         markdownTemplateEngine: "njk",
-        templateFormats: ["html", "md", "njk"],
+        templateFormats: ["html", "md", "njk", "eot", "ttf", "woff", "woff2", "svg", "jpg", "png", "css", "svg"],
         dir: {
             input: "src",
             output: "_site",
@@ -12,3 +17,5 @@ module.exports = function (eleventyConfig) {
 
     }
 };
+
+
