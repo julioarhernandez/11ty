@@ -9,6 +9,13 @@ sections:
 - type: document
   path: src/index.html
   label: Home
+- type: heading
+  label: Layouts
+- type: directory
+  path: src/layouts
+  label: Layouts
+  create: all
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
