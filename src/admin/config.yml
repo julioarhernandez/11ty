@@ -1,0 +1,27 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: "devassets/img" # Folder where user uploaded files should go
+
+collections: # A list of collections the CMS should be able to edit
+  - label: "Hero"
+    name: "hero"
+    files:
+      - label: "Hero label"
+        name: "hero-label"
+        file: "_data/hero.json"
+        fields:
+          - {label: Title, name: title, widget: string, hint: "The title"}
+
+
+
+          "title": "Make Your Business More Profitable",
+  "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam assumenda ea quo cupiditate facere deleniti fuga officia.",
+  "button": {
+    "text": "Get started",
+    "href": "#"
+  },
+  "image": {
+    "src": "_site/assets/images/ad1.jpg"
+  }
